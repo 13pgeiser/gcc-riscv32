@@ -1,0 +1,3 @@
+# Just call build.sh
+bash ./docker_build_riscv.sh
+directory_upload release
