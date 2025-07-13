@@ -5,7 +5,7 @@ if [ ! -e gcc-base ]; then
 fi
 source gcc-base/docker_build_helper.sh
 
-prepare_container buster
+prepare_container bookworm
 
 BUILD="$(gcc -dumpmachine)"
 TARGET="riscv32-unknown-elf"
